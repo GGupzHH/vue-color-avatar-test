@@ -3,5 +3,5 @@
  */
 module.exports = {
   // 选项...
-  publicPath: './',
+  publicPath: 'https://ggupzhh.github.io/vue-color-avatar-test/',
 };

@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <button @click="handleRandom">123</button>
     <div
       ref="avatarRef"
       class="vue-color-avatar"
@@ -15,12 +14,15 @@
 
       <div class="avatar-payload" v-html="svgContent" />
     </div>
+    <div class="wrap-btn-box" :style="{ background: random.background.color }">
+      <button class="wrap-btn" @click="handleRandom">
+        点击切换
+      </button>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
 import {
   BeardShape,
   ClothesShape,
@@ -52,7 +54,6 @@ export default {
     }
   },
   components: {
-    HelloWorld,
   },
   watch: {
     'sortedList': function() {
@@ -142,6 +143,7 @@ export default {
 <style scoped>
 .vue-color-avatar {
   position: relative;
+  margin: auto;
 }
 .avatar-background {
   position: absolute;
@@ -151,5 +153,24 @@ export default {
   width: 100%;
   height: 100%;
   transition: background-color 0.1s;
+}
+
+.wrap-btn-box {
+  width: 108px;
+  border-radius: 8px;
+  height: 28px;
+  margin: 22px auto;
+  border: 1px solid #ccc;
+}
+.wrap-btn {
+  /* margin-top: 24px; */
+  width: 100px;
+  height: 20px;
+  margin: 4px;
+  box-sizing: border-box;
+  border: 0px;
+  outline: none;
+  background-color: transparent;
+  color: #e04040d6;
 }
 </style>

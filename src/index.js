@@ -95,36 +95,3 @@ export const AVATAR_LAYER = {
     zIndex: 110,
   }
 }
-
-// const sortedList = Object.entries(avatarOption.widgets).sort(
-//   (i, ii) => {
-//     const ix = AVATAR_LAYER[i[0]]?.zIndex ?? 0
-//     const iix = AVATAR_LAYER[ii[0]]?.zIndex ?? 0
-//     return ix - iix
-//   }
-// )
-
-
-
-// console.log(sortedList)
-
-
-// const svgRawList = svgList()
-// console.log(svgRawList)
-//  const svgContent = `
-//   <svg
-//     width="${280}"
-//     height="${280}"
-//     viewBox="0 0 ${280 / 0.7} ${280 / 0.7}"
-//     preserveAspectRatio="xMidYMax meet"
-//     fill="none"
-//     xmlns="http://www.w3.org/2000/svg"
-//   >
-//     <g transform="translate(100, 65)">
-//       ${svgRawList.join('')}
-//     </g>
-//   </svg>
-// `
-// console.log(svgContent)
-
-// export default sortedList

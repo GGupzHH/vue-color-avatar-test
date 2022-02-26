@@ -1,23 +1,23 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@vue/cli-plugin-babel': ^4.5.0
-  '@vue/cli-plugin-eslint': ^4.5.0
-  '@vue/cli-plugin-router': ^4.5.0
-  '@vue/cli-plugin-vuex': ^4.5.0
-  '@vue/cli-service': ^4.5.0
-  '@vue/eslint-config-airbnb': ^5.0.2
+  '@vue/cli-plugin-babel': ^4.5.15
+  '@vue/cli-plugin-eslint': ^4.5.15
+  '@vue/cli-plugin-router': ^4.5.15
+  '@vue/cli-plugin-vuex': ^4.5.15
+  '@vue/cli-service': ^4.5.15
+  '@vue/eslint-config-airbnb': ^5.3.0
   babel-eslint: ^10.1.0
-  core-js: ^3.6.5
-  eslint: ^6.7.2
-  eslint-plugin-import: ^2.20.2
+  core-js: ^3.21.1
+  eslint: ^6.8.0
+  eslint-plugin-import: ^2.25.4
   eslint-plugin-vue: ^6.2.2
-  less: ^3.0.4
+  less: ^3.13.1
   less-loader: ^5.0.0
-  vue: ^2.6.11
-  vue-router: ^3.2.0
-  vue-template-compiler: ^2.6.11
-  vuex: ^3.4.0
+  vue: ^2.6.14
+  vue-router: ^3.5.3
+  vue-template-compiler: ^2.6.14
+  vuex: ^3.6.2
 
 dependencies:
   core-js: registry.npmmirror.com/core-js/3.21.1
@@ -7509,7 +7509,7 @@ packages:
     dev: true
 
   registry.npmmirror.com/mime-db/1.51.0:
-    resolution: {integrity: sha512-5y8A56jg7XVQx2mbv1lu49NR4dokRnhZYTtL+KGfaa27uq4pSTXkwQkFJl4pkRMyNFz/EtYDSkiiEHx3F7UN6g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mime-db/download/mime-db-1.51.0.tgz}
+    resolution: {integrity: sha512-5y8A56jg7XVQx2mbv1lu49NR4dokRnhZYTtL+KGfaa27uq4pSTXkwQkFJl4pkRMyNFz/EtYDSkiiEHx3F7UN6g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/mime-db/-/mime-db-1.51.0.tgz}
     name: mime-db
     version: 1.51.0
     engines: {node: '>= 0.6'}

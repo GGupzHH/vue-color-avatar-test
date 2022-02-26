@@ -1,12 +1,8 @@
 <template>
-  <div class="home">
+  <div class="home"  :style="{ background: random.background.color }">
     <div
       ref="avatarRef"
       class="vue-color-avatar"
-      :style="{
-        width: `${400}px`,
-        height: `${400}px`,
-      }"
     >
       <!-- :class="getWrapperShapeClassName()" -->
       <!-- <Background :color="avatarOption.background.color" /> -->
@@ -141,9 +137,18 @@ export default {
 };
 </script>
 <style scoped>
+.home {
+  width: 100%;
+  height: 100%;
+}
 .vue-color-avatar {
   position: relative;
   margin: auto;
+  width: 100%;
+  height: calc(100% - 72px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .avatar-background {
   position: absolute;

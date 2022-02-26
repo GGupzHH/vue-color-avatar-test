@@ -133,6 +133,9 @@ export default {
       // console.log(sortedList)
   this.sortedList = sortedList
      }
+  },
+  mounted () {
+    this.handleRandom()
   }
 };
 </script>

@@ -4,6 +4,6 @@
  module.exports = {
   // 选项...
   publicPath: process.env.NODE_ENV === 'production'
-  ? './vue-color-avatar-test/'
+  ? '/vue-color-avatar-test/'
   : './'
 };

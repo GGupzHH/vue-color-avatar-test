@@ -27,8 +27,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: git config --global user.email "${{ secrets }}"
-    - run: git config --global user.name "${{ secrets. }}"
+    - run: git config --global user.email "${{ secrets.EMAIL_VALUE }}"
+    - run: git config --global user.name "${{ secrets.NAME_VALUE }}"
     - run: chmod a+x deploy.sh
     - run: ./deploy.sh
 

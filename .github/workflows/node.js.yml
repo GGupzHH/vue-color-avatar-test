@@ -26,6 +26,12 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    # - run: npm install
-    # - run: npm run build
-    - run: sodu deploy.sh
+    - run: npm install
+    - run: npm run build
+    - run: cd dist
+    - run: git init
+    - run: git add -A
+    - run: git commit -m 'build(gh-pages)'
+    - run: git push -f git@github.com:GGupzHH/vue-color-avatar-test.git master:gh-pages
+
+

@@ -26,14 +26,9 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install
-    - run: npm run build
-    - run: cd dist
-    - run: git init
-    - run: git config --global user.email "1248023357@qq.com"
-    - run: git config --global user.name "赵雅国"
-    - run: git add -A
-    - run: git commit -m 'build(gh-pages)'
-    - run: git push -f git@github.com:GGupzHH/vue-color-avatar-test.git master:gh-pages
+    #- run: npm install
+    # - run: npm run build
+    - run: chmod a+x deploy.sh
+    - run: ./deploy.sh
 
 

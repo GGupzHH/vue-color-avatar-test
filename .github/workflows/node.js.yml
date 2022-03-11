@@ -29,4 +29,7 @@ jobs:
     - run: npm install
     - run: npm run build
     - run: git pull
+    - run: git add .
+    - run: git commit -m 'gh-pages'
     - run: git status
+    - run: git subtree push --prefix=dist origin gh-pages

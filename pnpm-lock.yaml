@@ -16,6 +16,7 @@ specifiers:
   global: ^4.4.0
   less: ^3.13.1
   less-loader: ^5.0.0
+  regenerator-runtime: ^0.13.9
   vue: ^2.6.14
   vue-router: ^3.5.3
   vue-template-compiler: ^2.6.14
@@ -25,6 +26,7 @@ dependencies:
   '@vue/cli': registry.npmmirror.com/@vue/cli/5.0.1
   core-js: registry.npmmirror.com/core-js/3.21.1
   global: registry.npmmirror.com/global/4.4.0
+  regenerator-runtime: registry.npmmirror.com/regenerator-runtime/0.13.9
   vue: registry.npmmirror.com/vue/2.6.14
   vue-router: registry.npmmirror.com/vue-router/3.5.3
   vuex: registry.npmmirror.com/vuex/3.6.2_vue@2.6.14

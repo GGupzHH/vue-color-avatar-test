@@ -20,6 +20,6 @@ git commit -m 'build(package)'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:GGupzHH/vue-color-avatar-test.git origin:gh-pages
+git push -f git@github.com:GGupzHH/vue-color-avatar-test.git master:gh-pages
 
 cd -

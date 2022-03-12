@@ -27,8 +27,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: git remote rm origin
+    - run: npm build
     - run: git remote add origin https://oauth2:{{TOKEN_VALUE}}值@github.com:GGupzHH/vue-color-avatar-test.git
-
+    - run: git add .
+    - run: git commit -m 'CI(gh-page)'
+    - run: git push -f git@github.com:GGupzHH/vue-color-avatar-test.git master:gh-pages
 
 

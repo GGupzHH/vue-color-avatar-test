@@ -27,9 +27,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: git config --global user.email "${{ secrets.EMAIL_VALUE }}"
-    - run: git config --global user.name "${{ secrets.NAME_VALUE }}"
-    - run: chmod a+x deploy.sh
-    - run: ./deploy.sh
+    - run: git remote rm origin
+    - run: git remote add origin https://oauth2:{{TOKEN_VALUE}}值@github.com:GGupzHH/vue-color-avatar-test.git
+
 
 

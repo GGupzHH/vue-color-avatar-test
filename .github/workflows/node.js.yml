@@ -29,7 +29,7 @@ jobs:
     #- run: npm install
     #- run: npm build
     
-    - run: git remote add origin https://GGupzHH:asdasd@github.com/GGupzHH/vue-color-avatar-test.git
+    - run: git remote add origin https://GGupzHH:asdasd@github.@com/GG:upzHH/vue-color-avatar-test.git
     - run: git remote
     #- run: git add .
     #- run: git commit -m 'CI(gh-page)'
